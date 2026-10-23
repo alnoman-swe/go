@@ -5,16 +5,16 @@ import "fmt"
 // 	name string
 // 	age int
 // }
-type Vertext struct {
-		X int
+type Vertex struct {
+		X int//all fields must be capitalized to be exported
 		Y int
 	}
 
 	var (
-		v1 = Vertext{1,2}
-		v2 = Vertext{X:1}
-		v3 = Vertext{}
-		p = &Vertext{1,2}
+		v1 = Vertex{1,2}
+		v2 = Vertex{X:1}
+		v3 = Vertex{}
+		p = &Vertex{1,2}
 )
 
 func main(){
